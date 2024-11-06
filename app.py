@@ -138,8 +138,8 @@ with st.sidebar:
     st.subheader("Settings")
     st.write("This is a simple chat application using MySQL. **Connect** to the database and start chatting.")
     
-    st.text_input("Host", value="junction.proxy.rlwy.net", key="Host")
-    st.text_input("Port", value="45109", key="Port")
+    st.text_input("Host", value="localhost", key="Host")
+    st.text_input("Port", value="3306", key="Port")
     st.text_input("User", value="root", key="User")
     # st.text_input("Password", type="password", value=st.secrets["PASSWORD"], key="Password")
     st.text_input("Database", value="railway", key="Database")
